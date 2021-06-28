@@ -1,4 +1,5 @@
 
+
 body{
     background-color:#c5e7fc ;
 }
@@ -85,10 +86,11 @@ justify-content: flex-start;
 }
 
 .resume{
+    
     display: flex;
     align-items: center;
     justify-content: center;
-
+    /* margin-left: 690px; */
     padding: 15px;
     padding-right: 25px;
     padding-left: 25px;
@@ -113,6 +115,7 @@ color: white;
 
 }
 
+
 .about_hero{
 
     display: flex;
@@ -121,6 +124,7 @@ color: white;
     align-items: center;
 
 }
+
 
 
 
