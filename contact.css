@@ -1,0 +1,199 @@
+
+body{
+
+    background-color: #c5e7fc;
+}
+nav{
+    background-color: #023e7d;
+}
+
+.panel{
+
+    margin: 61px;
+    box-shadow: 10px 10px grey;
+   
+   
+    
+    
+}
+
+.touch{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 26vh;
+    font-size: 35px;
+    background-color: whitesmoke;
+    letter-spacing: 8px;
+    word-spacing: 15px;
+ 
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.container{
+
+    display: flex;
+
+align-items: stretch;
+align-content: flex-start;
+justify-content: space-around;
+background-color: whitesmoke;
+height: 100%;
+}
+
+.container1 , .container2, .container3{
+    border-right: 3px solid #e9ecef;
+}
+
+img{
+
+    padding-left: 100px;
+   
+}
+
+
+
+.fb-heading , .insta-heading{
+
+    padding-left:64px ;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3PX;
+    font-weight: bold;
+    color: #888;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mail-heading{
+
+    padding-left: 92px;
+    padding-top: 20px;
+    text-transform: uppercase;
+letter-spacing: 3PX;
+font-weight: bold;
+color: #888;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+.linkedin-heading{
+
+    padding-left: 70px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3PX;
+    font-weight: bold;
+    color: #888;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info{
+
+    padding: 35px;
+    padding-left: 70px;
+    max-width: 230px;
+    letter-spacing: 1px;
+    color: #269aff;
+    font-size: 15px;
+    font-weight: 600;
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button{
+
+
+   border: 1.5px solid #9dd1ff;
+   color: #348efe;;
+   border-radius: 10px;
+    padding-left:28px;
+    padding-right:28px;
+    padding-top: 10px;
+    padding-bottom:10px ;
+    margin: 73px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    
+
+  
+
+}
+
+.instabtn , .linkedinbtn{
+
+    background-color: #269aff;
+    color: white;
+}
+
+.mailbtn{
+
+    padding:10px ;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+span{
+font-size: 13px;
+
+}
+
+
+
+.fbbtn:hover{
+    background-color:#023e7d ;
+    color: white;
+    
+
+}
+
+.mailbtn:hover{
+    background-color: #023e7d;
+    color: white;
+}
+
+.instabtn:hover{
+    background-color: #c5e7fc;
+    color: #023e7d;
+}
+
+
+.linkedinbtn:hover{
+    background-color: #c5e7fc;
+    color: #023e7d;
+}
+
+
+
+
+
+@media ( 
+    max-width: 900px){
+
+    .panel{
+
+        width: 80%;
+    }
+    .body{
+
+        height: 525px;
+    }
+
+    .touch{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
