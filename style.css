@@ -185,7 +185,7 @@ position: relative;
 
 }
 
-.burger{
+/* .burger{
     display: none;
 }
 
@@ -244,4 +244,33 @@ position: relative;
 .nav-active{
 
     transform: translateX(0%);
+} */
+
+
+@media(min-width:350px) and (max-width:420px){
+
+    /* .burger{
+        display: contents;
+
+    } */
+
+    .nav-links{
+      
+        width:79px;
+flex-direction: column;
+        
+    }
+
+    
+
+    nav{
+        display: flex;
+align-items: center;
+justify-content: space-around;
+min-width: 349px;
+
+position: relative;
+    }
+
+    
 }
